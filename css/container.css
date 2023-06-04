@@ -1,0 +1,355 @@
+.mainpage .container{
+    display: flex;
+    flex-direction: column;
+}
+/* Mobile Styling */
+.mainpage .container .cbox1{
+background-image: url(../images/1.webp);
+background-size: cover;
+width: 350px;
+height: 180px;
+margin-top: 30px;
+margin-left: 18px;
+}
+.mainpage .container .cbox1 h5{
+    font-family: poppins;
+    margin-top: 33px;
+    margin-left: 14px;
+    margin-right: 198px;
+}
+.mainpage .container .cbox1 .btn{
+    font-family: poppins;
+    margin-top: 15px;
+    margin-left: 14px;
+    text-decoration: underline;
+}
+.mainpage .container .cbox2{
+    background-image: url(../images/2\ \(2\).webp);
+    background-size: cover;
+    width: 350px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .container .cbox2 h5{
+    font-family: poppins;
+    margin-top: 33px;
+    margin-left: 14px;
+    margin-right: 198px;
+}
+.mainpage .container .cbox2 .btn{
+    font-family: poppins;
+    margin-top: 15px;
+    margin-left: 14px;
+    text-decoration: underline;
+}
+.text{
+    font-family: poppins;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+}
+.mainpage .grid{
+    display: flex;
+    flex-direction: column;
+}
+.mainpage .grid .gbox1{
+    background-image: url(../images/13.webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox1 .gtext,
+.mainpage .grid .gbox2 .gtext,
+.mainpage .grid .gbox3 .gtext,
+.mainpage .grid .gbox4 .gtext,
+.mainpage .grid .gbox5 .gtext,
+.mainpage .grid .gbox6 .gtext,
+.mainpage .grid .gbox7 .gtext,
+.mainpage .grid .gbox8 .gtext{
+        font-family: poppins;
+        margin-top: 130px;
+        margin-left: 120px;
+        margin-right: 100px;
+        color: white;
+        text-align: center;
+    }
+
+.mainpage .grid .gbox1 .btn,
+.mainpage .grid .gbox2 .btn,
+.mainpage .grid .gbox3 .btn,
+.mainpage .grid .gbox4 .btn,
+.mainpage .grid .gbox5 .btn,
+.mainpage .grid .gbox6 .btn,
+.mainpage .grid .gbox7 .btn,
+.mainpage .grid .gbox8 .btn{
+        font-family: poppins;
+        margin-top: 10px;
+        margin-left: 140px;
+        color: white;
+    }
+
+.mainpage .grid .gbox2{
+    background-image: url(../images/2\ \(3\).webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox3{
+   background-image: url(../images/3.webp);
+   background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox4{
+    background-image: url(../images/4.webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox5{
+    background-image: url(../images/5.webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox6{
+    background-image: url(../images/6.webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox7{
+    background-image: url(../images/7.webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.mainpage .grid .gbox8{
+    background-image: url(../images/8.webp);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+/* Wrap styling */
+.mainpage .wrap{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+}
+.mainpage .wrap .wbox1{
+    background-image: url(../images/1\ \(2\).jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.mainpage .wrap .wbox2{
+    background-image: url(../images/2\ \(4\).jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.mainpage .wrap .wbox3{
+    background-image: url(../images/3\ \(1\).jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+/* Wrap Text Styling */
+.mainpage .wrap .wbox1 .wtext,
+.mainpage .wrap .wbox2 .wtext,
+.mainpage .wrap .wbox3 .wtext{
+    display: flex;
+    margin-top: 170px;
+    margin-left: 19px;
+}
+.mainpage .wrap .wbox1 .wbtn,
+.mainpage .wrap .wbox2 .wbtn,
+.mainpage .wrap .wbox3 .wbtn{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 19px;
+    color: black;
+}
+.mainpage .wrap .wbox1 .date,
+.mainpage .wrap .wbox2 .date,
+.mainpage .wrap .wbox3 .date{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.mainpage .text{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+}
+ /* Tablet styling */
+@media(min-width:650px){
+    .mainpage .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .mainpage .container .cbox1{
+        background-size: cover;
+        width: 350px;
+        height: 180px;
+        margin-top: 30px;
+        margin-left: 28px;
+        }
+    .mainpage .container .cbox2{
+        background-size: cover;
+        width: 350px;
+        height: 180px;
+        margin-top: 30px;
+        margin-right: 28px;
+        }
+        /* Grid Design */
+        .mainpage .grid{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 700px;
+        }
+        .mainpage .grid .gbox1,
+        .mainpage .grid .gbox2,
+        .mainpage .grid .gbox3,
+        .mainpage .grid .gbox4,
+        .mainpage .grid .gbox5,
+        .mainpage .grid .gbox6,
+        .mainpage .grid .gbox7,
+        .mainpage .grid .gbox8{
+            background-size: cover;
+            width: 220px;
+            height: 220px;
+        }
+    .mainpage .grid .gbox1 .gtext,
+    .mainpage .grid .gbox2 .gtext,
+    .mainpage .grid .gbox3 .gtext,
+    .mainpage .grid .gbox4 .gtext,
+    .mainpage .grid .gbox5 .gtext,
+    .mainpage .grid .gbox6 .gtext,
+    .mainpage .grid .gbox7 .gtext,
+    .mainpage .grid .gbox8 .gtext{
+        font-family: poppins;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-right: 100px;
+        color: white;
+        text-align: center;
+    }
+    .mainpage .grid .gbox1 .btn,
+    .mainpage .grid .gbox2 .btn,
+    .mainpage .grid .gbox3 .btn,
+    .mainpage .grid .gbox4 .btn,
+    .mainpage .grid .gbox5 .btn,
+    .mainpage .grid .gbox6 .btn,
+    .mainpage .grid .gbox7 .btn,
+    .mainpage .grid .gbox8 .btn{
+        font-family: poppins;
+        margin-top: 10px;
+        margin-left: 80px;
+        color: white;
+    }
+
+        .mainpage .text{
+            margin-top: 50px;
+        }
+       
+        /* Wrap Design */
+        .mainpage .wrap{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            margin-left: 0px;
+        }
+        .mainpage .wrap .wbox1,
+        .mainpage .wrap .wbox2,
+        .mainpage .wrap .wbox2{
+            background-size: cover;
+            width: 330px;
+            height: 330px;
+        }
+}
+
+ /* Destop styling */
+ @media(min-width:900px){
+    .mainpage .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .mainpage .container .cbox1{
+        background-size: cover;
+        width: 45%;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 28px;
+    }
+    .mainpage .container .cbox2{
+        background-size: cover;
+        width: 45%;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 28px;
+    }
+
+     /* Grid Design */
+     .mainpage .grid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 700px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mainpage .grid .gbox1,
+    .mainpage .grid .gbox2,
+    .mainpage .grid .gbox3,
+    .mainpage .grid .gbox4,
+    .mainpage .grid .gbox5,
+    .mainpage .grid .gbox6,
+    .mainpage .grid .gbox7,
+    .mainpage .grid .gbox8{
+        background-size: cover;
+        width: 330px;
+        height: 330px;
+    }
+    .mainpage .wrap .wbox1,
+    .mainpage .wrap .wbox2,
+    .mainpage .wrap .wbox2{
+        background-size: cover;
+        width: 380px;
+        height: 380px;
+    }
+    .mainpage .wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+}
