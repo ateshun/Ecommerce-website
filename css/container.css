@@ -289,11 +289,18 @@ margin-left: 18px;
         }
         .mainpage .wrap .wbox1,
         .mainpage .wrap .wbox2,
-        .mainpage .wrap .wbox2{
+        .mainpage .wrap .wbox3{
             background-size: cover;
             width: 330px;
             height: 330px;
         }
+        .mainpage .wrap .wbox1 .wtext,
+        .mainpage .wrap .wbox2 .wtext,
+        .mainpage .wrap .wbox3 .wtext{
+            display: flex;
+            margin-top: 140px;
+            margin-left: 19px;
+            }
 }
 
  /* Destop styling */
@@ -338,9 +345,37 @@ margin-left: 18px;
         width: 330px;
         height: 330px;
     }
+    .mainpage .grid .gbox1 .gtext,
+    .mainpage .grid .gbox2 .gtext,
+    .mainpage .grid .gbox3 .gtext,
+    .mainpage .grid .gbox4 .gtext,
+    .mainpage .grid .gbox5 .gtext,
+    .mainpage .grid .gbox6 .gtext,
+    .mainpage .grid .gbox7 .gtext,
+    .mainpage .grid .gbox8 .gtext{
+        font-family: poppins;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-right: 100px;
+        color: white;
+        text-align: center;
+    }
+    .mainpage .grid .gbox1 .btn,
+    .mainpage .grid .gbox2 .btn,
+    .mainpage .grid .gbox3 .btn,
+    .mainpage .grid .gbox4 .btn,
+    .mainpage .grid .gbox5 .btn,
+    .mainpage .grid .gbox6 .btn,
+    .mainpage .grid .gbox7 .btn,
+    .mainpage .grid .gbox8 .btn{
+        font-family: poppins;
+        margin-top: 10px;
+        margin-left: 120px;
+        color: white;
+    }
     .mainpage .wrap .wbox1,
     .mainpage .wrap .wbox2,
-    .mainpage .wrap .wbox2{
+    .mainpage .wrap .wbox3{
         background-size: cover;
         width: 380px;
         height: 380px;
