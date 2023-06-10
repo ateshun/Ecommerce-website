@@ -1,0 +1,72 @@
+.footer{
+    background-color: rgba(239, 239, 239, 1);
+    padding: 45px 20px 30px;
+}
+.flogo{
+    margin-bottom: 15px;
+}
+.fadd,
+.femail,
+.fphone{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.addy{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 14px;
+}
+.ftext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.form input[type="email"]{
+    padding: 6px;
+    width: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000000;
+    border: 2px solid #d9d9d9;
+}
+.femail button{
+    padding: 4px;
+}
+.form{
+    display: flex;
+}
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+@media(min-width:650px){
+    .adr{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ftext{
+        margin-top: 0;
+    }
+}
+@media(min-width:1020px){
+    .footer{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}

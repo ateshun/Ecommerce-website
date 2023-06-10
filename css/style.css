@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 700vh;
+    height: 800vh;
 }
 /* Mobile Display */
 /* Hero Styling */
@@ -88,6 +88,9 @@
 }
 /* Tablet styling */
 @media(min-width:650px){
+    .mainpage{
+        height: 290vh;
+    }
     .mainpage .hero{
         background-position: center;
         background-repeat: no-repeat;
@@ -146,6 +149,9 @@
 
 /* Desktop styling */
 @media(min-width:900px){
+    .mainpage{
+        height: 320vh;
+    }
     .mainpage .hero{
         background-position: center;
         background-repeat: no-repeat;
